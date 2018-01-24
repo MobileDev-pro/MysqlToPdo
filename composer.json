@@ -1,0 +1,16 @@
+{
+  "name": "MobileDev-pro/MysqlToPdo.",
+  "description": "Replace mysql and mysqli with pdo prepare",
+  "license": "proprietary",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "nikic/php-parser": "^3.1",
+    "symfony/finder": "^3.4"
+  }
+}
